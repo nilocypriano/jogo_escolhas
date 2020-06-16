@@ -1,0 +1,122 @@
+body{
+    background-color:black;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    /*font-size: 20px;*/
+}
+
+header{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    color: red;
+    line-height: 1px;
+    margin-top: 5%;
+}
+.painel-logo {
+display: flex;
+flex-direction: inline;
+height: 400px;
+width: auto;
+}
+h1{
+    font-family: 'Hong Kong Hustle 3D';
+    font-size: 5em;
+    word-spacing: 5px;
+    margin-left:10px ;
+}
+
+h3{
+    font-family: '5x5 Pixel';
+    color: #f1f1f1;
+    font-size: 2em;
+}
+
+
+
+
+main{
+
+    margin-top: 4em;
+    width: 75%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;    
+    color:lawngreen;;
+}
+
+
+#btn-start{
+    font-family: '5x5 Pixel';
+    font-size: 12px;
+    padding: 10px 0;
+    
+    width:25%;
+    height: 15%;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;
+
+    transition: 1s;
+    
+}
+
+#btn-start:hover{
+    transform: scale(1.1);
+}
+
+#restart{
+    color: whitesmoke;
+}
+#botoes-controladores{
+font-size: 20px;
+width: 70%;
+display: flex;
+justify-content: space-between;
+color: black;
+display: none;
+}
+
+#btnUm, #btnDois, #btnTres{
+    border: 1px solid red;
+    width: 15%;
+    height: 15%;
+    margin: 10% 0;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: red;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+#btnUm:hover, #btnDois:hover, #btnTres:hover{
+    font-size: 30px;
+    background-color: red;
+    color: black;
+    transform: scale(1.2);
+}
+#btnUm:target {
+    text-decoration: none;
+}
+#paragrafo-desafio{
+    color: white;
+}
+
+
+#paragrafo-desafio{
+    margin-top: 7em;
+}

@@ -3,45 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Yone vs Dragons - Na saga do tempo</title>
+    
 </head>
 <body>
-    <header>
-        <h1>
-Yone VS Dragons</h1>
-<h3>
-	
-    	
- .::     Na saga do tempo     ::.	
-  
-</h3>
 
+<header>
+    <div class="painel-logo">
+        <img id="logo-monumento" src="branco.svg" alt="">
+        <img id= "logo-dragao" src="dragonlogo.svg" alt="">
+        <img id="logo-monumento" src="branco.svg" alt="">
 
-    </header>
+    </div>
+    <h1>Yone VS Dragons</h1>
+    <h3> .::     Na saga do tempo     ::.</h3>
+</header>
 
-    <main class="container-principal">
-        <span id="desenrolarhistoria">
-        <p id="paragrafo-principal">Uma saga através do tempo cheia de mistérios que se passa
-            em uma província no Japão feudal   e no bairro da Liberdade em 2035.
-            <br><br>A família do Samurai é sequestrada.
-            <br><br>Mas quais habilidades usar para uma viagem no tempo? Magia?
-          Tecnologia?
-            <br><br>Clique em START e ajude nosso herói a salvar sua família no futuro!</p>
-        </span> 
-            <div class="keywords">
-                <ul>
-                    
-                    <li>FICÇÃO</li>
-                    <li>HERÓIS</li>
-                    <li>TELETRANSPORTE</li>
-                    <li>VIAGEM NO TEMPO</li>
-                </ul>
-            </div>
+<main class="container-principal">
+    <span id="desenrolar-historia">
+        <p id="paragrafo-principal">Nosso samurai inicia uma misteriosa saga 
+             que ultrapassa os limites do tempo entre uma província no Japão feudal e no bairro da Liberdade em 2035.
+            <br><br>
+            Se quiser embarcar nessa aventura, além de dominar as artes marciais,<br> o samurai também terá que desempenhar habilidades lógicas para concluir essa jornada:
 
-           
+        </p>
+
+        <p id="paragrafo-desafio"></p>
+    </span>         
+   
+    <button id="btn-start" onclick="primeiraFase()">START</button>
+    
+    <div id="botoes-controladores">
+        <button id="btnUm">RESPOSTA 1</button>
+        <button id="btnDois">RESPOSTA 2</button>
+        <button id="btnTres">RESPOSTA 3</button>
+    </div>
+   
+    <a id="restart" href="">RESTART</button>
     </main>
-    <button id="start" onclick="rodaJogo()">START</button>
     <script src="script.js"></script>
 </body>
 </html>
