@@ -46,7 +46,7 @@ function segundaFase(){
 }
 
 function terceiraFase() {
-    layout('Ao passar pelo portal, o samurai e seu mestre desembarcam em uma viela no bairro da Liberdade, em São Paulo. Saindo da viela, Yone consegue avistar seu inimigo Shingen entrando em um templo com uma estátua amedrontadora de com diversas cabeças de dragões em um só corpo na entrada. O samurai corre atrás de seu inimigo Shingen,  que ao perceber a aproximação de Yone, dá vida às estátuas de dragões através de um comando de voz. Ajude Yone a vencer o dragão respondendo estes desafios.', '51', '1000', '121');
+    layout('Ao passar pelo portal, o samurai e seu mestre desembarcam em uma viela no bairro da Liberdade, em São Paulo. Saindo da viela, Yone consegue avistar seu inimigo Shingen entrando em um templo com uma estátua amedrontadora de com diversas cabeças de dragões em um só corpo na entrada. O samurai corre atrás de seu inimigo Shingen,  que ao perceber a aproximação de Yone, dá vida às estátuas de dragões através de um comando de voz. Ajude Yone a vencer o dragões, para vencer o jogo você precisa resolver 2 desafios.', '51', '1000', '121');
     desafio.textContent = "Determine o próximo número que siga a lei de formação da sequência (1, 9, 25, 49, 81, ___):";
     btn1.onclick = gameOver;
     btn2.onclick = gameOver;

@@ -72,15 +72,26 @@ main{
     transition: 1s;
     
 }
+#restart{
+    color: whitesmoke;
+    font-family: '5x5 Pixel';
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+}
+
+#restart:hover{
+    transform: scale(1.2);
+    color: lawngreen;
+    font-size: larger;
+
+}
 
 #btn-start:hover{
     transform: scale(1.1);
 }
 
-#restart{
-    color: whitesmoke;
-    font-family: '5x5 Pixel';
-}
+
 #botoes-controladores{
 font-size: 20px;
 width: 70%;
@@ -90,7 +101,7 @@ color: black;
 display: none;
 }
 
-#btnUm, #btnDois, #btnTrfsasafes{
+#btnUm, #btnDois, #btnTres{
     border: 1px solid red;
     width: 15%;
     height: 15%;
@@ -100,15 +111,14 @@ display: none;
     background-color: black;
     color: red;
     transition: 0.5s;
-    font-size: 15px;
+    font-size: 25px;
     font-family: '5x5 Pixel';
 }
 
 #btnUm:hover, #btnDois:hover, #btnTres:hover{
-    font-size: 30px;
+    font-size: 40px;
     color: red;
     transform: scale(1.2);
-    font-family: '5x5 Pixel';
 }
 
 #paragrafo-desafio{
