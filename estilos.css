@@ -6,7 +6,6 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    /*font-size: 20px;*/
 }
 
 header{
@@ -80,6 +79,7 @@ main{
 
 #restart{
     color: whitesmoke;
+    font-family: '5x5 Pixel';
 }
 #botoes-controladores{
 font-size: 20px;
@@ -90,7 +90,7 @@ color: black;
 display: none;
 }
 
-#btnUm, #btnDois, #btnTres{
+#btnUm, #btnDois, #btnTrfsasafes{
     border: 1px solid red;
     width: 15%;
     height: 15%;
@@ -101,17 +101,16 @@ display: none;
     color: red;
     transition: 0.5s;
     font-size: 15px;
+    font-family: '5x5 Pixel';
 }
 
 #btnUm:hover, #btnDois:hover, #btnTres:hover{
     font-size: 30px;
-    background-color: red;
-    color: black;
+    color: red;
     transform: scale(1.2);
+    font-family: '5x5 Pixel';
 }
-#btnUm:target {
-    text-decoration: none;
-}
+
 #paragrafo-desafio{
     color: white;
 }

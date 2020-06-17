@@ -37,7 +37,7 @@ btn3.textContent = acaoTres;
 
 
 function segundaFase(){
-    layout('Shaka havia deixado um recado que, caso Yone quisesse encontrar sua família, este deveria ir até o templo, localizado na floresta. No caminho, Yone e seu Sensei encontraram diversos inimigos e armadilhas mas conseguiram chegar ao templo Amaterasu.  Chegando lá, mesmo depois de um caminho exaustivo, batalharam  com Misterioso Dragão. Porém, quando Yone estava prestes a derrotar seu inimigo, este jogou uma bomba de fumaça sumindo com a sua família através de um portal que se fechou logo em seguida. Yone, ao ver que o portal fora fechado, fica desesperado, então seu sensei o informa que aquele portal é um portal do tempo e que conhece um feitiço capaz de abri-lo novamente. Resolva este desafio para lançar o feitiço' , '6', '8', '10');
+    layout('Shaka havia deixado um recado que, caso Yone quisesse encontrar sua família, este deveria ir até o templo, localizado na floresta. No caminho, Yone e seu Sensei encontraram diversos inimigos e armadilhas mas conseguiram chegar ao templo Amaterasu.  Chegando lá, mesmo depois de um caminho exaustivo, batalharam  com Misterioso Dragão. Porém, quando Yone estava prestes a derrotar seu inimigo, este jogou uma bomba de fumaça sumindo com a sua família através de um portal que se fechou logo em seguida. Yone, ao ver que o portal fora fechado, fica desesperado, então seu sensei o informa que trata-se de  um portal do tempo e que conhece um feitiço capaz de abri-lo novamente. Resolva este desafio para lançar o feitiço' , '6', '8', '10');
     desafio.textContent = "Observe a seguinte sequência regressiva: 62, 30, 14, X, 2, 0. Identifique o padrão estabelecido e clique na opção que indica o valor de X: ";
     btn1.onclick = terceiraFase;
     btn2.onclick = gameOver;
@@ -46,7 +46,7 @@ function segundaFase(){
 }
 
 function terceiraFase() {
-    layout('Ao passar pelo portal, o samurai e seu mestre desembarcam em uma viela no bairro da Liberdade, em São Paulo, onde estava acontecendo uma festa conhecida como Festa das Flores. Saindo da viela, Yone consegue avistar seu inimigo Shaka entrando em um templo com duas estatuas de dragão na entrada. O samurai corre atrás de seu inimigo Mestre Dragão dos Mistérios,  que ao perceber a aproximação de Yone, dá vida às estátuas de dragões através de um comando de voz. Ajude Yone a vencer o dragão respondendo estes desafios.', '51', '1000', '121');
+    layout('Ao passar pelo portal, o samurai e seu mestre desembarcam em uma viela no bairro da Liberdade, em São Paulo. Saindo da viela, Yone consegue avistar seu inimigo Shingen entrando em um templo com uma estátua amedrontadora de com diversas cabeças de dragões em um só corpo na entrada. O samurai corre atrás de seu inimigo Shingen,  que ao perceber a aproximação de Yone, dá vida às estátuas de dragões através de um comando de voz. Ajude Yone a vencer o dragão respondendo estes desafios.', '51', '1000', '121');
     desafio.textContent = "Determine o próximo número que siga a lei de formação da sequência (1, 9, 25, 49, 81, ___):";
     btn1.onclick = gameOver;
     btn2.onclick = gameOver;
@@ -87,7 +87,7 @@ function gameOver(){
 }
 
 function venceJogo() {
-    texto.textContent = "PARABÉNS! Você ajudou o samurai a derrotar Shingen O Dragão Místico e salvar sua família!";
+    texto.textContent = "PARABÉNS! Você ajudou o samurai a derrotar Shingen e os dragões místicos, salvando assim sua família!";
     document.getElementById("paragrafo-principal").style.fontSize = "30px";
     document.getElementById("restart").style.color = "red";
     desafio.textContent = "";
